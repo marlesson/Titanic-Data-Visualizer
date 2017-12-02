@@ -16,7 +16,19 @@ Uma das razões pelas quais o naufrágio levou a uma grande perda de vidas era q
 
 ## Design
 
-O designer utilizado para representar os dados foram os gráficos de Barra, Histogramas e gráficos de tendência.
+O designer utilizado para representar os dados foram os gráficos de Barra, Histogramas e gráficos de tendência. 
+
+### Paleta de cores
+Foi dado uma preferência a **paleta de cores qualitativas** na maioria dos gráficos, por se tratar de comparações entre dois grupos principais (sobreviventes e não sobreviventes) foi dado uma preferência nas cores **vermelha** para indicar os não sobreviventes e a cor **azul** para indicar os sobreviventes. Exemplo:
+
+![Primeira Versão](img/img1_v3.png)
+
+A **paleta de cores sequencial** foi utilizada apenas quando a comparação não é em sentido opostom, utilizando a a mesma cor em tonalidades diferentes para indicar a relevância de alguma informação. Exemplo:
+
+![Primeira Versão](img/img4_v3.png)
+
+
+### Melhorias de Designer
 
 Alguns elementos nos gráficos foram melhorando desde a primeira versão. Como exemplo, o gráfico de "Sobrevivência no naufráfio" em sua primeira versão não apresentava nem título nem a porcentagem, veja abaixo:
 
@@ -25,7 +37,7 @@ Alguns elementos nos gráficos foram melhorando desde a primeira versão. Como e
 
 Na última versão do gráfico de "Sobrevivência no naufráfio" foram adicionaos os elementos para facilitar o entendimento.
 
-![Primeira Versão](img/img1_v2.png)
+![Primeira Versão](img/img1_v3.png)
 
 
 Ao adicionar a porcentagem como número em cima das barras, facilitou o entendimento de porcentagem que antes era implícipo pelo tamanho da barra. Também foi retirada a legenda do eixo X, visto que já tem informações suficiêntes para compreender o contexto. Com relação ao título do gráfico, essa mudança foi em todos os gráficos, que na versão apresenta sempre o título.
@@ -39,7 +51,7 @@ Antes:
 
 Depois:
 
-![Primeira Versão](img/img2_v2.png)
+![Primeira Versão](img/img2_v3.png)
 
 
 Um outro designer interessante é o de histograma, onde é possível analisar diferentes distribuições de dados para chegar a uma conclusão. A imagem abaixo é a versão final do comparativo de distribuição de idades para o grupo de Sobreviventes e Não sobreviventes.
@@ -52,17 +64,27 @@ As vezes é necessário modificar uma visão ou simplesmente adicionar um outro 
 
 Na evolução do gráfico, além das informações de título e porcentagem, foi adicionada também um novo gráfico para evidênciar a tendência da queda na sobrevivência pela classe.
 
-![Primeira Versão](img/img3_1_v2.png)
+![Primeira Versão](img/img3_1_v3.png)
 ![Primeira Versão](img/img3_2_v2.png)
 
 Outros exemplos podem ser encontrados na visualização
 
-## Comentários
+## Feedback
+
+A visualização está pública em https://nbviewer.jupyter.org/github/marlesson/Titanic-Data-Visualizer/blob/master/Data%20Visualization.ipynb para feedbacks pelo GitHub.
 
 
-```python
+### 1. Comentário
 
-```
+A partir do comentário abaixo, o gráfico foi aterado para melhoarar o entendimento.
+![Primeira Versão](feedback/comentario_1.png)
+
+
+#### Original
+![Primeira Versão](img/img4_v1.png)
+#### Alterado
+![Primeira Versão](img/img4_v3.png)
+
 
 ## Recursos
 
